@@ -4,13 +4,13 @@ This section contains installation guides organized by platform and method.
 
 ## Installation Methods
 
-| Method | Description |
-|--------|-------------|
-| **IPI** (Installer-Provisioned Infrastructure) | The installer provisions and manages the infrastructure. Simplest approach. |
-| **UPI** (User-Provisioned Infrastructure) | You provision the infrastructure; the installer configures OpenShift on it. |
-| **Agent-Based** | A disconnected-friendly method using a bootable ISO. |
-| **SNO** (Single Node OpenShift) | All-in-one control plane and worker on a single node. |
-| **Assisted Installer** | A guided, UI-driven installation via the Hybrid Cloud Console. |
+| Method                                          | Description                                                                |
+| ---                                              | ---                                                                        |
+| **IPI** (Installer-Provisioned Infrastructure)   | The installer provisions and manages the infrastructure. Simplest approach |
+| **UPI** (User-Provisioned Infrastructure)        | You provision the infrastructure; the installer configures OpenShift on it |
+| **Agent-Based**                                   | A disconnected-friendly method using a bootable ISO                        |
+| **SNO** (Single Node OpenShift)                   | All-in-one control plane and worker on a single node                       |
+| **Assisted Installer**                            | A guided, UI-driven installation via the Hybrid Cloud Console              |
 
 ## Platforms
 
