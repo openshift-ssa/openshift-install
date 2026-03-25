@@ -47,11 +47,25 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Prerequisites:
-      - Overview: prerequisites/index.md
-  - Installation:
+  - Install:
       - Overview: installation/index.md
-  - Post-Installation:
+      - RHEL Install: installation/rhel-install.md
+      - Alternative ISO Serving: installation/httpd.md
+  - Post-Install:
       - Overview: post-installation/index.md
+      - Configure Registry: post-installation/configure-registry.md
+      - Add Worker Node: post-installation/add-worker-node.md
+      - Rotate SSH Keys: post-installation/rotate-ssh-keys.md
+  - Networking:
+      - Overview: networking/index.md
+  - Virtualization:
+      - Overview: virtualization/index.md
+  - Storage:
+      - Overview: storage/index.md
+  - Hub Cluster:
+      - Overview: hub/index.md
+  - Notes:
+      - Overview: notes/index.md
+      - Base64 and MachineConfig: notes/create-machine-config.md
   - Troubleshooting:
       - Overview: troubleshooting/index.md

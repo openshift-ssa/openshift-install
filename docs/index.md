@@ -6,29 +6,61 @@ Welcome to the OpenShift Install Guide. This site is a collection of guides, ref
 
 <div class="grid cards" markdown>
 
--   **Prerequisites**
+-   **Install**
 
     ---
 
-    Requirements and preparation steps before starting an OpenShift installation.
+    Prework, example install configs, and step-by-step bare metal installation guide.
 
-    [:octicons-arrow-right-24: Get started](prerequisites/index.md)
+    [:octicons-arrow-right-24: Get started](installation/index.md)
 
--   **Installation**
-
-    ---
-
-    Step-by-step installation guides for various platforms and methods.
-
-    [:octicons-arrow-right-24: Install](installation/index.md)
-
--   **Post-Installation**
+-   **Post-Install**
 
     ---
 
-    Configuration and setup tasks to perform after a successful install.
+    Post cluster installation configurations and other work.
 
     [:octicons-arrow-right-24: Configure](post-installation/index.md)
+
+-   **Networking**
+
+    ---
+
+    Examples of `NodeNetworkConfigurationPolicy` and `ClusterUserDefinedNetwork`.
+
+    [:octicons-arrow-right-24: Networking](networking/index.md)
+
+-   **Virtualization**
+
+    ---
+
+    Examples for OpenShift Virtualization.
+
+    [:octicons-arrow-right-24: Virtualization](virtualization/index.md)
+
+-   **Storage**
+
+    ---
+
+    Examples for CSI providers for OpenShift.
+
+    [:octicons-arrow-right-24: Storage](storage/index.md)
+
+-   **Hub Cluster**
+
+    ---
+
+    Building a Hub cluster with SNO + ACM.
+
+    [:octicons-arrow-right-24: Hub Cluster](hub/index.md)
+
+-   **Notes**
+
+    ---
+
+    Assorted notes for OpenShift install and configuration.
+
+    [:octicons-arrow-right-24: Notes](notes/index.md)
 
 -   **Troubleshooting**
 
